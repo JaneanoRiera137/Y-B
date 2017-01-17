@@ -1,0 +1,69 @@
+[10-Oct-2016 19:07:02 US/Eastern] PHP Warning:  Division by zero in /home2/yalobox/public_html/controllers/admin/AdminStatsController.php on line 599
+[11-Oct-2016 08:23:37 US/Eastern] PHP Warning:  Division by zero in /home2/yalobox/public_html/controllers/admin/AdminStatsController.php on line 599
+[19-Oct-2016 18:33:08 US/Eastern] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/yalobox/public_html/classes/controller/Controller.php:563) in /home2/yalobox/public_html/classes/controller/AdminController.php on line 1815
+[20-Oct-2016 18:21:30 US/Eastern] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/yalobox/public_html/classes/controller/Controller.php:563) in /home2/yalobox/public_html/classes/controller/AdminController.php on line 1815
+[09-Jan-2017 16:17:59 America/Guayaquil] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/yalobox/public_html/modules/cashondelivery/cashondelivery.php:2) in /home2/yalobox/public_html/classes/controller/AdminController.php on line 1815
+[09-Jan-2017 17:06:55 America/Guayaquil] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/yalobox/public_html/modules/cashondelivery/cashondelivery.php:2) in /home2/yalobox/public_html/classes/controller/AdminController.php on line 1815
+[10-Jan-2017 11:57:28 America/Guayaquil] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/yalobox/public_html/modules/cashondelivery/cashondelivery.php:2) in /home2/yalobox/public_html/classes/controller/AdminController.php on line 1815
+[10-Jan-2017 11:59:16 America/Guayaquil] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/yalobox/public_html/modules/cashondelivery/cashondelivery.php:2) in /home2/yalobox/public_html/classes/controller/AdminController.php on line 1815
+[10-Jan-2017 12:00:13 America/Guayaquil] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/yalobox/public_html/controllers/admin/AdminCartRulesController.php:122) in /home2/yalobox/public_html/classes/controller/AdminController.php on line 1815
+[10-Jan-2017 12:00:13 America/Guayaquil] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/yalobox/public_html/controllers/admin/AdminCartRulesController.php:122) in /home2/yalobox/public_html/classes/controller/AdminController.php on line 1815
+[10-Jan-2017 12:30:41 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home2/yalobox/public_html/tools/tcpdf/tcpdf.php on line 8615
+[10-Jan-2017 12:31:33 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home2/yalobox/public_html/tools/tcpdf/tcpdf.php on line 8615
+[10-Jan-2017 12:32:12 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home2/yalobox/public_html/tools/tcpdf/tcpdf.php on line 8615
+[10-Jan-2017 12:32:41 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home2/yalobox/public_html/tools/tcpdf/tcpdf.php on line 8616
+[10-Jan-2017 12:35:39 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home2/yalobox/public_html/tools/tcpdf/tcpdf.php on line 8615
+[10-Jan-2017 12:37:15 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home2/yalobox/public_html/tools/tcpdf/tcpdf.php on line 8615
+[10-Jan-2017 12:37:54 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home2/yalobox/public_html/tools/tcpdf/tcpdf.php on line 8620
+[10-Jan-2017 12:38:42 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home2/yalobox/public_html/tools/tcpdf/tcpdf.php on line 8615
+[10-Jan-2017 12:41:07 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home2/yalobox/public_html/tools/tcpdf/tcpdf.php on line 8620
+[10-Jan-2017 12:43:16 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home2/yalobox/public_html/tools/tcpdf/tcpdf.php on line 8616
+[10-Jan-2017 12:46:00 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home2/yalobox/public_html/tools/tcpdf/tcpdf.php on line 8615
+[10-Jan-2017 12:48:09 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home2/yalobox/public_html/tools/tcpdf/tcpdf.php on line 8620
+[10-Jan-2017 12:48:21 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home2/yalobox/public_html/tools/tcpdf/tcpdf.php on line 8615
+[10-Jan-2017 12:54:44 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home2/yalobox/public_html/tools/tcpdf/tcpdf.php on line 8615
+[10-Jan-2017 12:55:42 America/Guayaquil] PHP Parse error:  syntax error, unexpected '+', expecting function (T_FUNCTION) in /home2/yalobox/public_html/classes/pdf/HTMLTemplate.php on line 235
+[10-Jan-2017 12:55:47 America/Guayaquil] PHP Parse error:  syntax error, unexpected '+', expecting function (T_FUNCTION) in /home2/yalobox/public_html/classes/pdf/HTMLTemplate.php on line 235
+[10-Jan-2017 12:55:50 America/Guayaquil] PHP Parse error:  syntax error, unexpected '+', expecting function (T_FUNCTION) in /home2/yalobox/public_html/classes/pdf/HTMLTemplate.php on line 235
+[10-Jan-2017 12:58:44 America/Guayaquil] PHP Parse error:  syntax error, unexpected '+', expecting function (T_FUNCTION) in /home2/yalobox/public_html/classes/pdf/HTMLTemplate.php on line 235
+[10-Jan-2017 13:00:04 America/Guayaquil] PHP Parse error:  syntax error, unexpected '+', expecting function (T_FUNCTION) in /home2/yalobox/public_html/classes/pdf/HTMLTemplate.php on line 235
+[10-Jan-2017 13:04:25 America/Guayaquil] PHP Parse error:  syntax error, unexpected '+', expecting function (T_FUNCTION) in /home2/yalobox/public_html/classes/pdf/HTMLTemplate.php on line 235
+[10-Jan-2017 13:04:32 America/Guayaquil] PHP Parse error:  syntax error, unexpected '+', expecting function (T_FUNCTION) in /home2/yalobox/public_html/classes/pdf/HTMLTemplate.php on line 235
+[10-Jan-2017 13:04:55 America/Guayaquil] PHP Parse error:  syntax error, unexpected '+', expecting function (T_FUNCTION) in /home2/yalobox/public_html/classes/pdf/HTMLTemplate.php on line 235
+[10-Jan-2017 13:04:57 America/Guayaquil] PHP Parse error:  syntax error, unexpected '+', expecting function (T_FUNCTION) in /home2/yalobox/public_html/classes/pdf/HTMLTemplate.php on line 235
+[10-Jan-2017 13:06:03 America/Guayaquil] PHP Parse error:  syntax error, unexpected '+', expecting function (T_FUNCTION) in /home2/yalobox/public_html/classes/pdf/HTMLTemplate.php on line 235
+[10-Jan-2017 13:07:21 America/Guayaquil] PHP Parse error:  syntax error, unexpected '+', expecting function (T_FUNCTION) in /home2/yalobox/public_html/classes/pdf/HTMLTemplate.php on line 235
+[10-Jan-2017 13:07:29 America/Guayaquil] PHP Parse error:  syntax error, unexpected '+', expecting function (T_FUNCTION) in /home2/yalobox/public_html/classes/pdf/HTMLTemplate.php on line 235
+[10-Jan-2017 13:07:32 America/Guayaquil] PHP Parse error:  syntax error, unexpected '+', expecting function (T_FUNCTION) in /home2/yalobox/public_html/classes/pdf/HTMLTemplate.php on line 235
+[10-Jan-2017 13:07:35 America/Guayaquil] PHP Parse error:  syntax error, unexpected '+', expecting function (T_FUNCTION) in /home2/yalobox/public_html/classes/pdf/HTMLTemplate.php on line 235
+[10-Jan-2017 13:08:02 America/Guayaquil] PHP Parse error:  syntax error, unexpected '+', expecting function (T_FUNCTION) in /home2/yalobox/public_html/classes/pdf/HTMLTemplate.php on line 235
+[10-Jan-2017 13:10:49 America/Guayaquil] PHP Parse error:  syntax error, unexpected '+', expecting function (T_FUNCTION) in /home2/yalobox/public_html/classes/pdf/HTMLTemplate.php on line 235
+[10-Jan-2017 13:11:18 America/Guayaquil] PHP Parse error:  syntax error, unexpected '+', expecting function (T_FUNCTION) in /home2/yalobox/public_html/classes/pdf/HTMLTemplate.php on line 235
+[10-Jan-2017 13:12:28 America/Guayaquil] PHP Parse error:  syntax error, unexpected '+', expecting function (T_FUNCTION) in /home2/yalobox/public_html/classes/pdf/HTMLTemplate.php on line 235
+[10-Jan-2017 13:13:28 America/Guayaquil] PHP Notice:  Use of undefined constant _PS_ADMIN_PROFILE_ - assumed '_PS_ADMIN_PROFILE_' in /home2/yalobox/public_html/config/config.inc.php on line 186
+[10-Jan-2017 13:13:28 America/Guayaquil] PHP Notice:  Use of undefined constant _PS_ADMIN_PROFILE_ - assumed '_PS_ADMIN_PROFILE_' in /home2/yalobox/public_html/classes/shop/Shop.php on line 646
+[10-Jan-2017 13:13:28 America/Guayaquil] PHP Notice:  Use of undefined constant _PS_SMARTY_FORCE_COMPILE_ - assumed '_PS_SMARTY_FORCE_COMPILE_' in /home2/yalobox/public_html/config/smarty.config.inc.php on line 44
+[10-Jan-2017 13:13:28 America/Guayaquil] PHP Notice:  Use of undefined constant _PS_SMARTY_CHECK_COMPILE_ - assumed '_PS_SMARTY_CHECK_COMPILE_' in /home2/yalobox/public_html/config/smarty.config.inc.php on line 45
+[10-Jan-2017 13:13:28 America/Guayaquil] PHP Notice:  Use of undefined constant _PS_SMARTY_FORCE_COMPILE_ - assumed '_PS_SMARTY_FORCE_COMPILE_' in /home2/yalobox/public_html/config/smartyadmin.config.inc.php on line 32
+[10-Jan-2017 13:13:28 America/Guayaquil] PHP Notice:  Use of undefined constant _PS_USE_SQL_SLAVE_ - assumed '_PS_USE_SQL_SLAVE_' in /home2/yalobox/public_html/classes/Hook.php on line 355
+[10-Jan-2017 13:13:28 America/Guayaquil] PHP Notice:  Use of undefined constant _PS_USE_SQL_SLAVE_ - assumed '_PS_USE_SQL_SLAVE_' in /home2/yalobox/public_html/classes/Tab.php on line 296
+[10-Jan-2017 13:13:28 America/Guayaquil] PHP Notice:  Use of undefined constant _PS_USE_SQL_SLAVE_ - assumed '_PS_USE_SQL_SLAVE_' in /home2/yalobox/public_html/classes/order/OrderState.php on line 124
+[10-Jan-2017 13:13:28 America/Guayaquil] PHP Notice:  Use of undefined constant _PS_USE_SQL_SLAVE_ - assumed '_PS_USE_SQL_SLAVE_' in /home2/yalobox/public_html/classes/Tab.php on line 233
+[10-Jan-2017 13:13:28 America/Guayaquil] PHP Notice:  Use of undefined constant _PS_USE_SQL_SLAVE_ - assumed '_PS_USE_SQL_SLAVE_' in /home2/yalobox/public_html/controllers/admin/AdminOrdersController.php on line 155
+[10-Jan-2017 13:13:28 America/Guayaquil] PHP Notice:  Use of undefined constant _PS_ADMIN_PROFILE_ - assumed '_PS_ADMIN_PROFILE_' in /home2/yalobox/public_html/classes/Profile.php on line 126
+[10-Jan-2017 13:13:28 America/Guayaquil] PHP Notice:  Use of undefined constant _PS_ADMIN_PROFILE_ - assumed '_PS_ADMIN_PROFILE_' in /home2/yalobox/public_html/classes/Employee.php on line 462
+[10-Jan-2017 13:13:31 America/Guayaquil] PHP Notice:  Use of undefined constant _PS_ADMIN_PROFILE_ - assumed '_PS_ADMIN_PROFILE_' in /home2/yalobox/public_html/config/config.inc.php on line 186
+[10-Jan-2017 13:13:31 America/Guayaquil] PHP Notice:  Use of undefined constant _PS_ADMIN_PROFILE_ - assumed '_PS_ADMIN_PROFILE_' in /home2/yalobox/public_html/classes/shop/Shop.php on line 646
+[10-Jan-2017 13:13:31 America/Guayaquil] PHP Notice:  Use of undefined constant _PS_SMARTY_FORCE_COMPILE_ - assumed '_PS_SMARTY_FORCE_COMPILE_' in /home2/yalobox/public_html/config/smarty.config.inc.php on line 44
+[10-Jan-2017 13:13:31 America/Guayaquil] PHP Notice:  Use of undefined constant _PS_SMARTY_CHECK_COMPILE_ - assumed '_PS_SMARTY_CHECK_COMPILE_' in /home2/yalobox/public_html/config/smarty.config.inc.php on line 45
+[10-Jan-2017 13:13:31 America/Guayaquil] PHP Notice:  Use of undefined constant _PS_SMARTY_FORCE_COMPILE_ - assumed '_PS_SMARTY_FORCE_COMPILE_' in /home2/yalobox/public_html/config/smartyadmin.config.inc.php on line 32
+[10-Jan-2017 13:13:31 America/Guayaquil] PHP Notice:  Use of undefined constant _PS_USE_SQL_SLAVE_ - assumed '_PS_USE_SQL_SLAVE_' in /home2/yalobox/public_html/classes/Hook.php on line 355
+[10-Jan-2017 13:13:31 America/Guayaquil] PHP Notice:  Use of undefined constant _PS_USE_SQL_SLAVE_ - assumed '_PS_USE_SQL_SLAVE_' in /home2/yalobox/public_html/classes/Tab.php on line 296
+[10-Jan-2017 13:13:31 America/Guayaquil] PHP Notice:  Use of undefined constant _PS_USE_SQL_SLAVE_ - assumed '_PS_USE_SQL_SLAVE_' in /home2/yalobox/public_html/classes/Tab.php on line 233
+[10-Jan-2017 13:13:31 America/Guayaquil] PHP Notice:  Use of undefined constant _PS_ADMIN_PROFILE_ - assumed '_PS_ADMIN_PROFILE_' in /home2/yalobox/public_html/classes/Profile.php on line 126
+[10-Jan-2017 13:13:31 America/Guayaquil] PHP Notice:  Use of undefined constant _PS_ADMIN_PROFILE_ - assumed '_PS_ADMIN_PROFILE_' in /home2/yalobox/public_html/classes/Employee.php on line 462
+[10-Jan-2017 13:16:12 America/Guayaquil] PHP Parse error:  syntax error, unexpected '+', expecting function (T_FUNCTION) in /home2/yalobox/public_html/classes/pdf/HTMLTemplate.php on line 235
+[10-Jan-2017 13:17:37 America/Guayaquil] PHP Parse error:  syntax error, unexpected '+', expecting function (T_FUNCTION) in /home2/yalobox/public_html/classes/pdf/HTMLTemplate.php on line 235
+[10-Jan-2017 13:19:13 America/Guayaquil] PHP Parse error:  syntax error, unexpected '+', expecting function (T_FUNCTION) in /home2/yalobox/public_html/classes/pdf/HTMLTemplate.php on line 235
+[10-Jan-2017 13:20:01 America/Guayaquil] PHP Parse error:  syntax error, unexpected '+', expecting function (T_FUNCTION) in /home2/yalobox/public_html/classes/pdf/HTMLTemplate.php on line 235
+[10-Jan-2017 13:20:07 America/Guayaquil] PHP Parse error:  syntax error, unexpected '+', expecting function (T_FUNCTION) in /home2/yalobox/public_html/classes/pdf/HTMLTemplate.php on line 235

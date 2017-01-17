@@ -1,0 +1,185 @@
+/**
+* 2015-2016 YDRAL.COM
+*
+* NOTICE OF LICENSE
+*
+*  @author YDRAL.COM <info@ydral.com>
+*  @copyright 2015-2016 YDRAL.COM
+*  @license GNU General Public License version 2
+*
+* You can not resell or redistribute this software.
+*/
+ 
+.picture img {width:100px;}
+.picture {float:left; margin:5px}
+#loadingmask {padding:15px}
+#oficinas_correos_content { padding:0 15px; }
+#oficinas_correos_content, #correospaq {font: 12px/14px Arial,Verdana,sans-serif;}
+#oficinas_correos {
+    min-width: 350px; margin-bottom:10px !important; border:#ffd300 1px solid
+}
+.span_txt {float:none !important;}
+#correos_info_map, #citypaqs_map_wrapper {
+   border: 1px solid #CCCCCC;
+    float: left;
+    height: 220px;
+    margin-right: 20px;
+    width:360px;
+}
+#citypaqs_map_options {margin-top: 10px; text-align:left}
+#citypaqs_map_options p {padding:2px !important}
+#citypaqs_map {
+ width: 100%;
+    height: 100%;
+}
+#correos_info_time {
+    float: left;
+    width: 255px;
+} 
+#correo_info_nombre {
+		float:left;
+		width:295px
+}
+#correos_postcode { margin: 0 10px; width:45px; padding:3px 1px; border:#ffd300 1px solid; }
+#correos_email, #correos_postcode, #correos_mobile {line-height:15px}
+.correos_actions { margin:15px 0; overflow:hidden; padding:3px 0} 
+.correos_button_search, .correos_control_options {float:left; margin-right:15px}
+.correos_carrier_principal label, #correos_carrier_secundario label { display:inline !important } 
+#message_no_office_error { padding:10px; text-align:center; color:red}
+tr#correos_content td {border-top:none; padding:0}
+p.cr_contact_details { float:left; padding-right:15px}
+
+#timetable_inner {padding: 5px 15px 10px 15px}
+#timetable label {float:none !important; display:inline !important; padding: 0 25px 0 5px}
+/*#timetable input { margin-top:5px}*/
+#correospaq { text-align: right; padding: 8px;}
+#correospaq  p {margin: 0 0 10px; padding-bottom: 20px;}
+#correospaqs {margin-left:10px; padding: 3px 8px !important; height:24px !important; line-height:24px !important; margin-top:0px; margin-bottom:0px !important;}
+#citypaq_search_fail {color:red; font-weight:bold}
+
+
+#paqsearch, .paqsearch  {
+padding:0px 8px 0px 8px !important;
+text-decoration:none; 
+text-align:center;
+background-color:#FFD300;
+font-weight:bold;
+display:inline-block;
+height:28px !important;
+line-height: 28px !important;
+}
+#paqsearch {width:160px !important; }
+#paqsearch_other.paqsearch{background:#FFD300 url('../images/homepaqsearch.gif') no-repeat 5px 3px !important; padding:0px 8px 0px 30px !important;}
+#paqsearch.paqloading {background:#FFD300 url('../images/ajax-loader.gif') no-repeat 9px center !important; padding:0px 15px 0px 15px !important;}
+#paqback { text-decoration:none; border:1px solid #FFD300; background:url('../images/arrow_left.gif') no-repeat 5px center !important; 
+height: 27px;
+line-height: 27px;
+padding: 0 5px 0 42px !important;
+display:inline-block; !important; }
+#paq_result_fail {
+padding:0px 0px 0px 35px !important;
+ background:url('../images/error.gif') no-repeat 5px center !important;
+ border:1px solid #FFD300; margin-left:10px; 
+ }
+.paq_register_link {
+height: 27px;
+line-height: 27px;
+display:inline-block;
+
+} 
+ 
+#paquser { padding:0px 2px !important;  border:1px solid #FFD300; margin-bottom:0 !important; top:0px !important; height:26px !important; line-height: 26px !important; width:120px}
+.paqurl{background:url('../images/boton_arrow.gif') no-repeat  center !important; font-weight:bold; padding:0px 10px; display:inline-block; width:140px; text-align:center}
+#paq_result_ok {border:1px solid #FFD300; 
+height: 27px !important;
+    line-height: 27px;
+    padding: 0 2px 0 7px !important;
+display: inline-block; }
+.btn_correos {padding:3px 10px !important;  background-image: none !important; background-color: #ffd300 !important; border: 1px solid #ffd300 !important; height: auto}
+#oficinas_correos_content input, #oficinas_correos_content  select {border:#ffd300 1px solid; padding:3px 2px; margin: 0; height: auto; line-height:auto }
+/*Offices PopUp*/
+.fancybox-inner #oficinas_correos_content p {padding-bottom:10px !important; margin:0 !important}
+.fancybox-inner #loadingmask {min-width: 500px; height: 480px; text-align: center}
+#correos_popuplinkcontent, #correos_popuplinkcontenthomepaq, #correos_popuplinkcontentcitypaq{  padding: 3px 1px 1px 1px; font-weight: bold;  }
+#correos_popuplinkcontentpaq {padding:4px 0 0 0 ;}
+.arrow_rightbefore {background: url("../images/boton_arrow.gif") no-repeat scroll left center rgba(0, 0, 0, 0) !important; padding:3px 7px}
+.arrow_rightafter{background: url("../images/boton_arrow.gif") no-repeat scroll right center rgba(0, 0, 0, 0) !important; padding:3px 7px}
+.arrow_leftbefore {background: url("../images/boton_arrow_left.gif") no-repeat scroll left center rgba(0, 0, 0, 0) !important; padding:3px 7px !important;}
+.arrow_leftafter{background: url("../images/boton_arrow_left.gif") no-repeat scroll right center rgba(0, 0, 0, 0) !important; padding:3px 7px !important;}
+.correos_popuplinktxt {background-color:#FFD302 !important;padding:3px 5px}
+#addtofavorites_txt {background:#FFD302 url("../images/favorite.gif") no-repeat scroll left center !important; padding:3px 7px 3px 25px }
+#addtofavorites_txtpopup {background:#FFD302 url("../images/arrow_right.gif") no-repeat scroll left center !important; padding:3px 7px 3px 25px }
+#addtofavorites_url {font-weight:bold; text-align:underline}
+.closepopup {display:none; float:right; margin-top:15px }
+.fancybox-inner  .closepopup {display:inline}
+.fancybox-inner  .paq_register_link  {margin-bottom:15px}
+.fancybox-inner .cr_contact_details.correos_email {display:block; float:none}
+.fancybox-inner  .cr_contact_details {padding-bottom: 10px;}
+.fancybox-inner #correos_info_horarios span {display: block}
+.fancybox-inner  #correospaq {width: 650px; height: 120px;}
+.fancybox-inner #correos_info_map, .fancybox-inner #citypaqs_map_wrapper {width:280px; height: 200px;}
+
+/*.fancybox-inner #homepaq_search .span_txt {display:block; text-align:left; padding-bottom:5px; text-align:center}*/
+#correos_popuplinkhomepaq, #correos_popuplink, #correos_popuplinkcitypaq, {text-decoration:underline}
+.radio_citypaq_searchtype {margin:0 !important; overflow: hidden;}
+div.radio_citypaq_searchtype .radio_citypaq_searchtype_row {float:right; }
+div.radio_citypaq_searchtype .radio_citypaq{ display: block; margin: 4px 0 11px !important;}
+
+/*PS 16*/
+div.radio_citypaq_searchtype .radio_citypaq_searchtype_row div.radio {display:block !important; margin: 6px 0 8px !important;}
+
+label.radio_citypaq_searchtype {width:150px;  text-align:left;padding-left:8px; display: block; padding-bottom: 5px; padding-top: 5px; font-weight: normal;}
+#paqsearch_other {margin:10px 0 0 0px; padding-left:15px}
+
+#citypaq_cp, #paq_mobile, #citypaq_state, #paq_email,  #cr_international_mobile {
+   border: 1px solid #ffd300;
+   padding: 2px;
+   width: 80px;
+}
+#cr_international_mobile {width: 100px}
+#citypaq_state {width:87px; height:auto; line-height: auto; margin-bottom: 2px;}
+#citypaq_cp {display:block; height:auto; line-height: auto;}
+#citypaq_searchtype_state_container {display:inline-block !important; width:103px; text-align:left; margin-left:15px;}
+#citypaq_search_loading {text-align:left}
+#correos_popuplink{
+
+	
+    display: inline-block;
+    font-weight: bold;
+
+    text-align: center;
+}
+#correos_popuplinkspan {
+background: url("../images/boton_arrow.gif") no-repeat scroll left center rgba(0, 0, 0, 0) !important;
+}
+#correos_maplink_info {padding:10px 0 !important}
+#cr_internacional p {padding: 0 0 5px 0  !important; margin: 0 ! important; text-align: center}
+@media (max-width: 767px) {
+	#oficinas_correos {   min-width: 235px; width: 235px; margin-bottom:5px;}
+	#correos_info_map, #citypaqs_map_wrapper { width:230px;}
+	#oficinas_correos_content p {padding-bottom: 10px;}
+	#correos_email, #correos_mobile  { display:block; margin:5px 0}
+	.delivery_option_logo {display:none}
+	/*.delivery_option_logo img {
+	position:absolute;
+clip:rect(0px, 39px, 40px, 0px);
+margin: 15px 0 0 -15px;
+
+	}
+	*/
+}
+/*
+@media (max-width: 320px) {
+	#oficinas_correos_content select {  width: 230px; margin-bottom:5px;}
+	#correos_info_map { width:230px;}
+	#oficinas_correos_content p {padding-bottom: 10px;}
+	#correos_email, #correos_mobile  { display:block; margin:5px 0}
+	//.delivery_option_logo img {  max-width:40px !important; height:40px}
+	.delivery_option_logo img {
+	position:absolute;
+clip:rect(0px, 52px, 40px, 0px);
+margin: -20px 0 0 -15px;
+
+	}
+}
+*/

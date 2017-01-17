@@ -1,7 +1,6 @@
-
 <?php
 /*
-* 2007-2015 PrestaShop
+* 2007-2016 PrestaShop
 *
 * NOTICE OF LICENSE
 *
@@ -20,7 +19,7 @@
 * needs please refer to http://www.prestashop.com for more information.
 *
 *  @author PrestaShop SA <contact@prestashop.com>
-*  @copyright  2007-2015 PrestaShop SA
+*  @copyright  2007-2016 PrestaShop SA
 *  @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
 */
@@ -34,7 +33,7 @@ class CashOnDelivery extends PaymentModule
 	{
 		$this->name = 'cashondelivery';
 		$this->tab = 'payments_gateways';
-		$this->version = '0.7.5';
+		$this->version = '1.0.0';
 		$this->author = 'PrestaShop';
 		$this->need_instance = 1;
 		$this->controllers = array('validation');
@@ -44,8 +43,8 @@ class CashOnDelivery extends PaymentModule
 
 		parent::__construct();
 
-		$this->displayName = $this->l('Pago contra entrega (PCE)');
-		$this->description = $this->l('Se realiza el pago una vez la mercadería es entregada');
+		$this->displayName = $this->l('Cash on delivery (COD)');
+		$this->description = $this->l('Accept cash on delivery payments');
 
 		/* For 1.4.3 and less compatibility */
 		$updateConfig = array('PS_OS_CHEQUE', 'PS_OS_PAYMENT', 'PS_OS_PREPARATION', 'PS_OS_SHIPPING', 'PS_OS_CANCELED', 'PS_OS_REFUND', 'PS_OS_ERROR', 'PS_OS_OUTOFSTOCK', 'PS_OS_BANKWIRE', 'PS_OS_PAYPAL', 'PS_OS_WS_PAYMENT');
@@ -103,8 +102,8 @@ class CashOnDelivery extends PaymentModule
 			return false;
 
 		return array(
-			'cta_text' => $this->l('Pago contra entrega (PCE)'),
-			'logo' => Media::getMediaPath(dirname(__FILE__).'/cashondelivery.png'),
+			'cta_text' => $this->l('Pay with cash on delivery (COD)'),
+			'logo' => Media::getMediaPath(dirname(__FILE__).'/cashondelivery.jpg'),
 			'action' => $this->context->link->getModuleLink($this->name, 'validation', array('confirm' => true), true)
 		);
 	}

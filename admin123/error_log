@@ -67,3 +67,7 @@
 [10-Jan-2017 13:19:13 America/Guayaquil] PHP Parse error:  syntax error, unexpected '+', expecting function (T_FUNCTION) in /home2/yalobox/public_html/classes/pdf/HTMLTemplate.php on line 235
 [10-Jan-2017 13:20:01 America/Guayaquil] PHP Parse error:  syntax error, unexpected '+', expecting function (T_FUNCTION) in /home2/yalobox/public_html/classes/pdf/HTMLTemplate.php on line 235
 [10-Jan-2017 13:20:07 America/Guayaquil] PHP Parse error:  syntax error, unexpected '+', expecting function (T_FUNCTION) in /home2/yalobox/public_html/classes/pdf/HTMLTemplate.php on line 235
+[10-Jan-2017 16:19:54 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home2/yalobox/public_html/tools/tcpdf/tcpdf.php on line 8620
+[10-Jan-2017 16:20:38 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home2/yalobox/public_html/tools/tcpdf/tcpdf.php on line 8615
+[10-Jan-2017 16:21:14 America/Guayaquil] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home2/yalobox/public_html/tools/tcpdf/tcpdf.php on line 8615
+[13-Jan-2017 15:10:00 America/New_York] PHP Notice:  PDO::__construct(): send of 111 bytes failed with errno=32 Broken pipe in /home2/yalobox/public_html/classes/db/DbPDO.php on line 64
